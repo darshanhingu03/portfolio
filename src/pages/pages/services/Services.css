@@ -1,0 +1,66 @@
+.s-wrapper {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+}
+.s-intro {
+  padding: 4rem 3rem;
+}
+.s-intro > span {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #797979;
+  letter-spacing: 3px;
+}
+.s-intro > h2 {
+  font-weight: bold;
+  margin-top: 1rem;
+  font-size: 3rem;
+}
+.s-services {
+  display: flex;
+  padding-inline: 5rem;
+}
+.s-services > .s-boxes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #f8faff;
+  margin-left: 2rem;
+  padding: 4rem 3rem;
+  gap: 2rem;
+}
+.s-services > .s-boxes > .b-intro {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.s-services > .s-boxes > .b-intro > p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.s-services > .s-boxes > .b-intro > span {
+  text-align: center;
+  /* color: #0a0a0a; */
+  word-spacing: 3px;
+  line-height: 2rem;
+}
+.b-shape {
+  height: 3px;
+  width: 4rem;
+  background: var(--botton-color);
+  /* filter: blur(5px); */
+  cursor: pointer;
+}
+.s-boxes > .b-button > span {
+  text-transform: uppercase;
+  font-size: 12px;
+  cursor: pointer;
+}
+.s-services > .s-boxes:hover {
+  background: rgb(65, 65, 223);
+  color: white;
+}

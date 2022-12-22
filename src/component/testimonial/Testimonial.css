@@ -1,0 +1,47 @@
+.t-wrapper {
+  height: 100vh;
+  width: 100%;
+}
+.t-comment {
+  width: 80%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background: white;
+  margin-inline: 8rem;
+  margin-top: 2rem;
+}
+.t-shape {
+  height: 60vh;
+  width: 30vw;
+  background: var(--shape-color);
+  border-radius: 46% 54% 31% 69% / 77% 39% 61% 23%;
+  position: absolute;
+  top: 370%;
+  left: 5%;
+  z-index: -1;
+  box-shadow: -2rem 2rem 3rem rgba(62, 49, 184, 0.438);
+}
+.t-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-block: 2rem;
+}
+.t-intro > span {
+  font-weight: bold;
+  font-size: 20px;
+}
+.t-intro > p {
+  color: #797979;
+  margin-top: 0.7rem;
+  text-transform: capitalize;
+}
+.t-intro > .desc {
+  margin-top: 2rem;
+}
+.t-intro > .desc > span {
+  font-size: 15px;
+  color: #797979;
+}

@@ -1,0 +1,86 @@
+.h-wrapper {
+  display: flex;
+  height: 100vh;
+}
+.h-left {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-inline-start: 10rem;
+}
+.h-left > .h-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.h-left > .h-intro > span {
+  color: rgba(109, 108, 108, 0.678);
+  text-transform: uppercase;
+}
+.h-left > .h-intro :nth-child(2) {
+  color: black;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.h-left > .h-links {
+  margin-top: 2rem;
+}
+.h-left > .h-links > .link {
+  cursor: pointer;
+}
+.shape {
+  flex: 1;
+  background: var(--shape-color);
+  width: 50vw;
+  height: 100vh;
+  border-radius: 69% 31% 0% 100% / 77% 0% 100% 23%;
+}
+
+.imageSectio {
+  position: absolute;
+  top: 19%;
+  right: 0;
+}
+
+.imageSectio img {
+  object-fit: cover;
+  height: 500px;
+}
+
+.boxes {
+  display: flex;
+}
+.boxes > .b-boxes {
+  width: 10rem;
+  height: 7rem;
+  background-color: rgba(131, 128, 128, 0.103);
+  display: flex;
+  margin-top: 7rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 1rem; */
+  text-align: center;
+  text-transform: capitalize;
+}
+.boxes > .b-boxes:nth-child(2) {
+  margin-left: 2rem;
+}
+.boxes > .b-boxes:nth-child(3) {
+  margin-left: 2rem;
+}
+.boxes > .b-boxes > span:nth-child(1) {
+  color: blue;
+  font-size: 30px;
+}
+
+/* hover effect */
+
+.h-left > .h-links > .link:hover {
+  color: blue;
+}

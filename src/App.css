@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Edu+SA+Beginner&family=Praise&display=swap");
+:root {
+  --hover-text-color: #fecaec;
+  --text-color: #3a3538;
+  --shape-color: linear-gradient(
+    262deg,
+    rgba(246, 0, 187, 1) 0%,
+    rgba(0, 143, 250, 1) 100%
+  );
+  --botton-color: linear-gradient(
+    262deg,
+    rgba(246, 0, 187, 1) 0%,
+    rgba(0, 143, 250, 1) 100%
+  );
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  font-family: "Comfortaa", cursive;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  padding: 1rem;
+  margin-top: 2rem;
+  background: var(--botton-color);
   color: white;
+  border-style: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.a-shape {
+  height: 5px;
+  width: 5rem;
+  background: var(--botton-color);
+  margin-left: 1rem;
+  filter: blur(5px);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(246, 0, 187, 1) 0%,
+    rgba(0, 143, 250, 1) 100%
+  );
+  cursor: pointer;
 }
